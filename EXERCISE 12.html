@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 120%;
+  letter-spacing: 1px;
+}
+
+header.title {
+  text-align: center;
+}
+
+section.diagram {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 40px;
+  border: 4px solid black;
+  border-radius: 16px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+  margin: 40px;
+  background-color: #faea0a;
+  background-clip: padding-box;
+}
+section.diagram header {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+  background-color: #ccccff;
+}
+
+div.content {
+  background-color: #00baf3;
+}
+
+main {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+  float: left;
+  width: 57.5%;
+  background-color: #c42f92;
+}
+main header {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  background-color: #cc3333;
+}
+
+article {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  background-color: #b340e9;
+}
+article h1 {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  background-color: #39857a;
+}
+article p {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  background-color: #6363a7;
+}
+div.gutter {
+  box-sizing: border-box;
+  float: left;
+  width: 5%;
+}
+
+aside {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+  background-color: #115c11;
+  float: left;
+  width: 37.5%;
+}
+aside .content {
+  padding-bottom: 20px;
+}
+aside .content {
+  padding-bottom: 20px;
+}
+aside p {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  background-color: #333386;
+}
+
+footer {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+  background-color: #34348f;
+  clear: both;
+}
+
+p.tag {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  border: 0;
+  box-shadow: none;
+  position: absolute;
+  top: -1em;
+  left: 0.5em;
+  background-color: rgb(252, 249, 105);
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+
+    </style>
+        <header class="title">
+            <h1>EXERCISE 12 </h1>
+        </header>
+        <section class="diagram">
+            <div class="content">
+            <p class="tag"><center>Body</center></p>
+            <header>
+                <p class="tag"><center>Header</center></p>
+            </header>
+            <main>
+                <div class="content">
+                <p class="tag">Section</p>
+                <header>
+                    <p class="tag">Header</p>
+                </header>
+            <article>
+              <p class="tag">Article</p>
+              <div class="content">
+              <h1>Header</h1>
+              <p>P</p>
+              </div>
+          </article>
+          <article>
+              <p class="tag">Article</p>
+              <div class="content">
+              <h1>Headline 1</h1>
+              <p>Content</p>
+              </div>
+          </article>
+          </div>
+      </main>
+      <div class="gutter">&nbsp;</div>
+            <aside>
+                <p class="tag">Section</p>
+                <div class="content">
+                <p>Content</p>
+                </div>
+                <div class="content">
+                  <p>Nav</p>
+                  </div>
+            </aside>
+            <footer>
+                <p class="tag">Footer</p>
+            </footer>
+            </div>
+        </section>
