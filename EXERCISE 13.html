@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EXERCISE 13</title>
+    <meta charset="utf-8">
+    <meta name="Made By:" content="R.Bantali">
+    <meta name="viewpoint" content="width-device-width, initial-scale-1">
+</head>
+<style>
+    * {box-sizing: border-box;}
+
+.row::after 
+{content: "";
+  clear: both;
+  display: table;}
+
+[class*="col-"] 
+{float: left;
+  padding: 15px;}
+
+html {font-family: "Lucida Sans", sans-serif;}
+
+.header 
+{background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;}
+
+.menu ul
+{list-style-type: none;
+  margin: 0;
+  padding: 0;}
+
+.menu li 
+{padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+
+  .aside 
+{background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+
+.footer 
+{background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;}
+
+/*FOR MOBILE*/
+[class*="col-"] 
+{width: 100%;}
+
+/*FOR TABLET*/
+@media only screen and (min-width: 600px)
+{ .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+/*FOR DESKTOP*/
+@media only screen and (min-width: 768px) 
+{.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+</style>
+<body>
+    <div class="header">
+        <h1>FOODS</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+            <li>SWEET</li>
+            <li>SPICY</li>
+            <li>MEAT</li>
+            <li>VEGETABLE</li>
+          </ul>
+        </div>
+        <div class="col-6 col-s-9">
+            <h1>SWEET</h1>
+            <p>The most basic definition is that sweet food has the flavor or taste of sugar or honey,
+                 while savory food is not sweet, but rather full-flavored and sometimes spicy.
+                 Sweet and savory foods often complement each other at a dinner.</p>
+          </div>
+          <div class="col-3 col-s-12">
+            <div class="aside">
+              <h2>What?</h2>
+              <p>Food is any substance consumed to provide nutritional support for an organism. 
+                Food is usually of plant, animal, or fungal origin, and contains essential nutrients, 
+                such as carbohydrates, fats, proteins, vitamins, or minerals.</p>
+              <h2>Where?</h2>
+              <p> All food comes from plants, even animals depend on plants.
+                   Hence, we obtain food from plants directly or indirectly.</p>
+              <h2>How?</h2>
+              <p>Start searching on the internet or travel around the world to find out the
+                   different kinds of foods that people make.</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+            <p>FOOD IS WHAT YOU MAKE IT TO BE. AS LONG AS IT IS EDIBLE.</p>
+          </div>
+</body>
+</html>
